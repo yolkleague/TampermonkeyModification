@@ -13,18 +13,18 @@
 	const addScript = () => {
 		document.head.innerHTML +=`
 		<style>
-			:root {
-				color: #ffffff;
-				--ss-blue1: #5865f2;
-				--ss-blue3: #ffffff;
-				--ss-blue5: #ffffff;
-				--ss-blue6: #5865f2;
-				--ss-yolk: #000000;
-				--ss-lightoverlay: radial-gradient(#ffffff, #5865f2);
-			}
-  		</style>
-   	`}
-
+		:root {
+			color: #ffffff;
+			--ss-blue1: #5865f2;
+			--ss-blue3: #ffffff;
+			--ss-blue5: #ffffff;
+			--ss-blue6: #5865f2;
+			--ss-yolk: #000000;
+			--ss-lightoverlay: radial-gradient(#ffffff, #5865f2);
+		}
+		</style>
+	`}
+	
 	document.body ? addScript() : document.addEventListener("DOMContentLoaded", e => addScript());
-
+	
 })();
