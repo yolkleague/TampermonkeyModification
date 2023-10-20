@@ -9,13 +9,11 @@
 // @grant        none
 // ==/UserScript==
 
-(function() {const addScript = () => {
-
+(function() {
+	const addScript = () => {
 		document.head.innerHTML +=`
-
-  		<title>Yolk League Shell Shockers</title>
 		<style>
-  			:root {
+			:root {
 				color: #ffffff;
 				--ss-blue1: #5865f2;
 				--ss-blue3: #ffffff;
@@ -25,7 +23,6 @@
 				--ss-lightoverlay: radial-gradient(#ffffff, #5865f2);
 			}
   		</style>
-
    	`}
 
 	document.body ? addScript() : document.addEventListener("DOMContentLoaded", e => addScript());
