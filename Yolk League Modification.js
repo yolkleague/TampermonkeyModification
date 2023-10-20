@@ -5,7 +5,7 @@
 // @description  Changes the design, adds a skybox and features.
 // @author       Yolk League
 // @match        *://shellshock.io/
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=shellshock.io
+// @icon         https://raw.githubusercontent.com/yolkleague/TampermonkeyModification/main/icon.svg
 // @grant        none
 // ==/UserScript==
 
@@ -13,7 +13,7 @@
 	
 	const addScript = () => {
 		document.head.innerHTML +=
-			`<link rel="stylesheet" href="styles/transitions.css?1685981192">`
+			`<link rel="stylesheet" href="https://raw.githubusercontent.com/yolkleague/TampermonkeyModification/main/colors.css">`
 	}
 
 	document.body ? addScript() : document.addEventListener("DOMContentLoaded", e => addScript());
