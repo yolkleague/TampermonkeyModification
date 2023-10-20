@@ -10,10 +10,10 @@
 // ==/UserScript==
 
 (function() {
-	const selectedItemPath = document.querySelector("#main-menu > menu > ul > li.home-menu-item > button > svg > path:nth-child(1)"); selectedItemPath.style.fill = "#00000000";
-	const selectedItemPath = document.querySelector("#main-menu > menu > ul > li.profile-menu-item > button > svg > path:nth-child(1)"); selectedItemPath.style.fill = "#00000000";
-	const selectedItemPath = document.querySelector("#main-menu > menu > ul > li.inventory-menu-item > button > svg > path:nth-child(1)"); selectedItemPath.style.fill = "#00000000";
-	const selectedItemPath = document.querySelector("#main-menu > menu > ul > li.shop-menu-item > button > svg > path:nth-child(1)"); selectedItemPath.style.fill = "#00000000";
+	const homemenu = document.querySelector("#main-menu > menu > ul > li.home-menu-item > button > svg > path:nth-child(1)"); homemenu.style.fill = "#00000000";
+	const profilemenu = document.querySelector("#main-menu > menu > ul > li.profile-menu-item > button > svg > path:nth-child(1)"); profilemenu.style.fill = "#00000000";
+	const inventorymenu = document.querySelector("#main-menu > menu > ul > li.inventory-menu-item > button > svg > path:nth-child(1)"); inventorymenu.style.fill = "#00000000";
+	const shopmenu = document.querySelector("#main-menu > menu > ul > li.shop-menu-item > button > svg > path:nth-child(1)"); shopmenu.style.fill = "#00000000";
 
 	const addScript = () => {
 		document.head.innerHTML +=`
